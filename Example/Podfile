@@ -1,0 +1,13 @@
+
+plugin 'cocoapods-imy-bin'
+use_binaries!
+
+target 'bin-demo' do
+  pod 'FMDB'
+  pod 'LKDBHelper'
+
+  pod 'YYModel',:podspec => 'https://github.com/ibireme/YYModel/raw/master/YYModel.podspec'
+
+  pod 'YYCache',:podspec => 'https://github.com/ibireme/YYCache/raw/master/YYCache.podspec'
+  
+end
